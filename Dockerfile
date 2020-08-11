@@ -7,5 +7,5 @@ COPY . .
 RUN ls
 RUN go build -o app
 
-EXPOSE 8099
+EXPOSE 8088
 ENTRYPOINT /app/app
